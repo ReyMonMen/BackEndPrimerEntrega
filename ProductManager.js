@@ -14,7 +14,7 @@ class ProductManager {
         const findCode = this.products.find(products => products.code === product.code);
 
         if(findCode){
-            console.log(`El codigo de producto $(this.product.code) ya esta en uso`);
+            console.log(`El codigo de producto ${product.code} ya esta en uso`);
         }
         else{
             product.id = this.id++;
