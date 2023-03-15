@@ -7,6 +7,8 @@ class ProductManager {
 
     addProduct (product){
 
+        if()
+
 
         product.id = this.#id++;
         this.#products.push(product);
@@ -25,7 +27,7 @@ class ProductManager {
 
 } 
 
-productoPrueba = {
+const productoPrueba = {
     title = "Producto de prueba",
     description = "No sirve para un carajo",
     price = 2000,
